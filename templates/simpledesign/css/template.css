@@ -1,0 +1,270 @@
+/******************************/
+/******** Template CSS ********/
+/******************************/
+body { margin: 0px; font-size: 14px; line-height: 1.6; color: #000000; background: #fafafa; }
+p { margin: 15px 0px; }
+ul.menu, ul.menu ul, ul.menu ul ul, .pagination ul, .actions li, #login-form ul, ul.dropdown-menu, ul.breadcrumb, ul.pagenav, ul.category-module { list-style: none; padding: 0; margin: 0; }
+img { border: none; padding: 0; margin: 0; }
+.clr { clear: both; }
+h1, h2, h3, h4, h5 { margin: 0px;}
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+form input, form select, textarea { font-size: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.ff1, .ff1 .inputbox, .ff1 input.button { font-family: Arial, Helvetica, sans-serif; }
+.ff2, .ff2 .inputbox, .ff2 input.button { font-family: "Times New Roman", Times, serif; }
+.ff3, .ff3 .inputbox, .ff3 input.button { font-family: "Courier New", Courier, monospace; }
+.ff4, .ff4 .inputbox, .ff4 input.button { font-family: "Georgia", Times New Roman, Times, serif; }
+.ff5, .ff5 .inputbox, .ff5 input.button { font-family: "Verdana", Arial, Helvetica, sans-serif; }
+.ff6, .ff6 .inputbox, .ff6 input.button { font-family: "Geneva", Arial, Helvetica, sans-serif; }
+.ff7, .ff7 .inputbox, .ff7 input.button { font-family: "Book Antiqua"; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.tooltip { position: absolute; z-index: 1030; display: block; font-size: 12px; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); visibility: visible; }
+.tooltip.in { opacity: .8; filter: alpha(opacity=80); }
+.tooltip.top { padding: 5px 0; margin-top: -3px; }
+.tooltip-inner { max-width: 200px; padding: 8px; color: #fff; text-align: center; text-decoration: none; background-color: #000; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.tooltip-arrow { position: absolute; width: 0; height: 0; border-color: transparent; border-style: solid; }
+.tooltip.top .tooltip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-color: #000; border-width: 5px 5px 0; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header-structure, #menu-structure, #banner-structure, #advert-structure, #content-structure, #footer-structure, #copy-structure { width: 970px; padding: 0px 10px; margin: 0 auto; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header-bg { float: left; width: 930px; padding: 10px 15px; }
+#menu-bg { float: left; width: 960px; background: #363636; }
+#banner-bg { float: left; width: 940px; padding: 10px; background: #FFFFFF; }
+#advert-bg { float: left; width: 930px; padding: 15px 15px 0px 15px; background: #fafafa; }
+#content-bg { float: left; width: 930px; padding: 15px 15px 0px 15px; background: #fafafa; }
+#footer-bg { float: left; width: 930px; padding: 15px 15px 0px 15px; background: #fafafa; }
+#copy-bg { float: left; width: 930px; height: 50px; padding: 10px 15px; background: url(../images/header_white.gif) bottom; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.logo { height: 80px; }
+#logo { float: left; }
+#copy, #powered { text-align: center; }
+#search { float: right; padding: 0px 10px 0px 0px; text-align: left; }
+#header { float: right; max-width: 550px; height: 70px; padding: 5px 0px 0px 0px; overflow: hidden; }
+#copy { float: left; margin: 15px 0px 0px 0px; }
+#powered { float: right; margin: 15px 0px 0px 0px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#content-right-col { float: left; width: 660px; clear: none; }
+#content-left-col { float: right; width: 660px; clear: none; }
+#content-left-right { float: left; width: 490px; margin-left: 20px; clear: none; }
+#right-right-col { float: right; width: 250px; clear: none; }
+#left-left-col { float: left; width: 250px; clear: none; }
+#left-left-right { float: left; width: 200px; clear: none; }
+#right-left-right { float: right; width: 200px; clear: none; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.page-header h1, .contact h1 { font-size: 20px; letter-spacing: 1.5px; padding: 5px 10px; margin-bottom: 10px; background: #f0f0f0; border: 1px solid #dedede; }
+.blog-featured h2, .blog h2, .item-page h2, .contact h2 { font-size: 18px; }
+.dropdown-menu li { display: inline; margin-right: 10px; }
+dl.article-info dd { padding: 0; margin: 0; }
+.newsflash-title { margin-top: 15px; }
+.pagination { text-align: center; float: left; width: 100%; margin-bottom: 15px; }
+.pagination li { display: inline; }
+li.pagination-num { display: inline; }
+.pagination .pagenav { padding: 5px 10px; text-decoration: none; margin: 0px 2px; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #dedede; color: #000000; }
+ul.pagenav .previous { float: left; margin-bottom: 15px; }
+ul.pagenav .next { float: right; margin-bottom: 15px; }
+p.counter { margin-top: -10px; }
+p.readmore a { padding: 5px 10px; text-decoration: none; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #dedede; color: #000000; }
+.category-desc { border-bottom: 1px solid #c0c0c0; margin: 0px 0px 15px 0px; }
+p.readmore { text-align: right; }
+.items-row { clear: both; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#form-login-username, #form-login-password { margin-bottom: 10px; }
+#login-form .inputbox { padding: 4px; width: 95%; border: 1px solid #c0c0c0; }
+#jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email1, #jform_email2, #jform_email { padding: 4px; width: 250px; border: 1px solid #c0c0c0; }
+#member-registration, #user-registration { margin-bottom: 15px; }
+#member-registration fieldset, #user-registration fieldset { margin-bottom: 10px; }
+#login-form .button { margin: 10px 0px 0px 0px; }
+#login-form ul { margin-top: 10px; }
+#login-form a { color: #000000; text-decoration: none; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#contact-form { margin: 15px 0px; }
+#jform_contact_name, #jform_contact_email, #jform_contact_emailmsg { padding: 4px; width: 250px; border: 1px solid #c0c0c0; }
+#jform_contact_message { padding: 4px; width: 94%; height: 250px; border: 1px solid #c0c0c0; }
+.contact h2 { margin-bottom: 15px; }
+.contact-emailto a, .contact a { color: #363636; text-decoration: none; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.search .inputbox { padding: 3px; border: 1px solid #c0c0c0; }
+.search .form-limit { text-align: center; margin-top: 10px; }
+.result-created, .result-category, .result-text { padding: 0; margin: 0; }
+.result-created { margin-bottom: 10px; }
+#searchForm #ordering, #searchForm #limit { padding: 3px; }
+.highlight { color: #000000; }
+#searchForm { color: #000000; }
+.result-title a { color: #000000; text-decoration: none; }
+#search .search form { margin: 6px 0px 0px 0px; }
+#header .search { margin: 20px 0px 0px 0px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+input.button, button.button, button.btn { padding: 4px 10px; border-radius: 5px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+a.btn { color: #000000; text-decoration: none; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header p { margin: 0px; }
+.advert h3.heading, .footer h3.heading, .user h3.heading, h2.item-title, .page-header h2 { padding-bottom: 5px; margin-bottom: 10px; border-bottom: 1px solid #dedede; }
+.advert .menu a, .footer .menu a, .user .menu a { color: #000000; text-decoration: none; display: block; padding: 4px 0px; border-bottom: 1px solid #dedede; }
+.newsflash-title a, a.readmore, .blog-featured h2 a, .blog h2 a, .item-page h2 a, .dropdown-menu li a, .category-name a, ul.pagenav .previous a, ul.pagenav .next a, #powered a { color: #000000; text-decoration: none; }
+#header .menu a { color: #000000; text-decoration: none; display: block; }
+#search .menu a { color: #FFFFFF; text-decoration: none; display: block; }
+#header .menu li li, #search .menu li li { display: none; }
+#header .menu li { float: left; margin: 25px 0px 0px 30px; }
+#search .menu li { float: left; margin: 0px 0px 0px 30px; line-height: 3; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#right-right-col .moduletable, #left-left-col .moduletable, #left-left-right .moduletable, #right-left-right .moduletable { padding-bottom: 15px; }
+#right-right-col h3.heading, #left-left-col h3.heading, #left-left-right h3.heading, #right-left-right h3.heading { letter-spacing: 1.5px; padding: 5px 10px; margin: 0px 0px 10px 0px; background: #f0f0f0; border: 1px solid #dedede; }
+#right-right-col .menu li a, #left-left-col .menu li a, #left-left-right .menu li a, #right-left-right .menu li a { color: #000000; text-decoration: none; display: block; padding: 4px 5px; border-bottom: 1px solid #dedede; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#menu { float: left; padding-bottom: 0px; text-align: left; }
+#menu .menu a { color: #FFFFFF; text-decoration: none; display: block; font-size: 14px; font-weight: normal; padding: 0px 15px; }
+#menu .menu li { float: left; position:relative; padding: 0px; line-height: 3; }
+#menu .menu li.active a, #menu .menu li.active a:hover, #menu .menu li.active a:active, #menu .menu li.active a:focus { background: #252525; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#menu .menu li li a { font-weight: normal; font-size: 14px; background: none; }
+#menu .menu ul { float:none; left:-999em; position:absolute; z-index: 99; }
+#menu .menu ul { width: 190px; padding: 5px 0px 10px 0px; border-radius: 0px 0px 7px 7px; background: #363636; }
+#menu .menu ul li { width: 190px; padding: 2px 0px; position:relative;  margin-left: 0px; line-height: 1.8; }
+#menu .menu li li, #menu li:hover ul, #menu li.sfhover ul { left: auto; }
+#menu ul.menu li li:hover { background: none; }
+#menu ul.menu li.active li a, #menu ul.menu li.active li a:hover, #menu ul.menu li.active li a:active, #menu ul.menu li.active li a:focus { background: none !important; }
+#menu ul.menu ul li.active a, #menu ul.menu ul li.active a:hover, #menu ul.menu ul li.active a:active, #menu ul.menu ul li.active a:focus { background: none !important; }
+#menu ul.menu li.active li a, #menu ul.menu li.active li a:hover, #menu ul.menu li.active li a:active, #menu ul.menu li.active li a:focus { background: none !important; }
+#menu ul.menu li.active li a, #menu ul.menu li.active li a:hover, #menu ul.menu li.active li a:active, #menu ul.menu li.active li a:focus { background: none !important; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#menu .menu li li li a { font-weight: normal; font-size: 14px; }
+#menu .menu ul ul { margin: -1.8em 0 0 12.2em; }
+#menu .menu ul ul { position: absolute; z-index: 99; height: auto; }
+#menu .menu ul ul { padding: 5px 0px; border-radius: 7px; background: #252525; }
+#menu ul.menu li li li:hover { }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#menu li:hover ul ul, #menu li:hover ul ul ul, #menu li.sfhover ul ul, #menu li.sfhover ul ul ul, #menu ul.menu li:hover ul ul, #menu ul.menu li:hover ul ul ul, #menu ul.menu li.sfhover ul ul, #menu ul.menu li.parentsfhover ul ul, #menu ul.menu li.parent-activesfhover ul ul, #menu ul.menu li.activesfhover ul ul, #menu ul.menu li.sfhover ul ul ul, #menu ul.menu li.parentsfhover ul ul ul, #menu ul.menu li.parent-activesfhover ul ul ul, #menu ul.menu li.activesfhover ul ul ul { left: -999em; }
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul, #menu ul.menu li:hover ul, #menu ul.menu li li:hover ul, #menu ul.menu li li li:hover ul, #menu ul.menu li.sfhover ul, #menu ul.menu li.parentsfhover ul, #menu ul.menu li.parent-activesfhover ul, #menu ul.menu li.activesfhover ul, #menu ul.menu li li.sfhover ul, #menu ul.menu li li.havesubchildsfhover ul, #menu ul.menu li li.havesubchild-activesfhover ul, #menu ul.menu li li.activesfhover ul, #menu ul.menu li li li.sfhover ul, #menu ul.menu li li li.havesubchildsfhover ul, #menu ul.menu li li li.havesubchild-activesfhover ul, #menu ul.menu li li li.activesfhover ul { left: auto; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#content-right-col .cols-4 .column-1, #content-left-col .cols-4 .column-1 { width: 153px; float: left; }
+#content-right-col .cols-4 .column-2, #content-left-col .cols-4 .column-2 { width: 153px; float: left; margin-left: 16px; }
+#content-right-col .cols-4 .column-3, #content-left-col .cols-4 .column-3 { width: 153px; float: left; margin-left: 16px; }
+#content-right-col .cols-4 .column-4, #content-left-col .cols-4 .column-4 { width: 153px; float: right; }
+#content-right-col .cols-3 .column-1, #content-left-col .cols-3 .column-1 { width: 210px; float: left; }
+#content-right-col .cols-3 .column-2, #content-left-col .cols-3 .column-2 { width: 210px; float: left; margin-left: 15px; }
+#content-right-col .cols-3 .column-3, #content-left-col .cols-3 .column-3 { width: 210px; float: right; }
+#content-right-col .cols-2 .column-1, #content-left-col .cols-2 .column-1 { width: 322px; float: left; }
+#content-right-col .cols-2 .column-2, #content-left-col .cols-2 .column-2 { width: 322px; float: right; }
+#content-right-col .cols-1 .column-1, #content-left-col .cols-1 .column-1 { width: 660px; float: left; }
+#content-left-right .cols-3 .column-1 { width: 154px; float: left; }
+#content-left-right .cols-3 .column-2 { width: 154px; float: left; margin-left: 14px; }
+#content-left-right .cols-3 .column-3 { width: 154px; float: right; }
+#content-left-right .cols-2 .column-1 { width: 237px; float: left; }
+#content-left-right .cols-2 .column-2 { width: 237px; float: right; }
+#content-left-right .cols-1 .column-1 { width: 490px; float: left; }
+#content-no-col .cols-5 .column-1 { width: 174px; float: left; }
+#content-no-col .cols-5 .column-2 { width: 174px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-3 { width: 174px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-4 { width: 174px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-5 { width: 174px; float: right; }
+#content-no-col .cols-4 .column-1 { width: 222px; float: left; }
+#content-no-col .cols-4 .column-2 { width: 222px; float: left; margin-left: 14px; }
+#content-no-col .cols-4 .column-3 { width: 222px; float: left; margin-left: 14px; }
+#content-no-col .cols-4 .column-4 { width: 222px; float: right; }
+#content-no-col .cols-3 .column-1 { width: 300px; float: left; }
+#content-no-col .cols-3 .column-2 { width: 300px; float: left; margin-left: 15px; }
+#content-no-col .cols-3 .column-3 { width: 300px; float: right; }
+#content-no-col .cols-2 .column-1 { width: 457px; float: left; }
+#content-no-col .cols-2 .column-2 { width: 457px; float: right; }
+#content-no-col .cols-1 .column-1 { width: 930px; float: left; }
+#content-right-col .cols-4 .column-1, #content-left-col .cols-4 .column-1, #content-right-col .cols-4 .column-2, #content-left-col .cols-4 .column-2, #content-right-col .cols-4 .column-3, #content-left-col .cols-4 .column-3, #content-right-col .cols-4 .column-4, #content-left-col .cols-4 .column-4, #content-right-col .cols-3 .column-1, #content-left-col .cols-3 .column-1, #content-right-col .cols-3 .column-2, #content-left-col .cols-3 .column-2, #content-right-col .cols-3 .column-3, #content-left-col .cols-3 .column-3, #content-right-col .cols-2 .column-1, #content-left-col .cols-2 .column-1, #content-right-col .cols-2 .column-2, #content-left-col .cols-2 .column-2, #content-right-col .cols-1 .column-1, #content-left-col .cols-1 .column-1, #content-left-right .cols-3 .column-1, #content-left-right .cols-3 .column-2, #content-left-right .cols-3 .column-3, #content-left-right .cols-2 .column-1, #content-left-right .cols-2 .column-2, #content-left-right .cols-1 .column-1, #content-no-col .cols-5 .column-1, #content-no-col .cols-5 .column-2, #content-no-col .cols-5 .column-3, #content-no-col .cols-5 .column-4, #content-no-col .cols-5 .column-5, #content-no-col .cols-4 .column-1, #content-no-col .cols-4 .column-2, #content-no-col .cols-4 .column-3, #content-no-col .cols-4 .column-4, #content-no-col .cols-3 .column-1, #content-no-col .cols-3 .column-2, #content-no-col .cols-3 .column-3, #content-no-col .cols-2 .column-1, #content-no-col .cols-2 .column-2, #content-no-col .cols-1 .column-1 { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.advert19 .one, .footer19 .one { width: 174px; float: left; }
+.advert19 .two, .footer19 .two { width: 174px; float: left; margin-left: 15px; }
+.advert19 .three, .footer19 .three { width: 174px; float: left; margin-left: 15px; }
+.advert19 .four, .footer19 .four { width: 174px; float: left; margin-left: 15px; }
+.advert19 .five, .footer19 .five { width: 174px; float: right; }
+.advert24 .one, .footer24 .one { width: 222px; float: left; }
+.advert24 .two, .footer24 .two { width: 222px; float: left; margin-left: 14px; }
+.advert24 .three, .footer24 .three { width: 222px; float: left; margin-left: 14px; }
+.advert24 .four, .footer24 .four { width: 222px; float: right; }
+.advert33 .one, .footer33 .one { width: 300px; float: left; }
+.advert33 .two, .footer33 .two { width: 300px; float: left; margin-left: 15px; }
+.advert33 .three, .footer33 .three { width: 300px; float: right; }
+.advert49 .one, .footer49 .one { width: 457px; float: left; }
+.advert49 .two, .footer49 .two { width: 457px; float: right; }
+.advert99 .one, .footer99 .one { width: 930px; float: left; }
+.advert19 .one, .footer19 .one, .advert19 .two, .footer19 .two, .advert19 .three, .footer19 .three, .advert19 .four, .footer19 .four, .advert19 .five, .footer19 .five, .advert24 .one, .footer24 .one, .advert24 .two, .footer24 .two, .advert24 .three, .footer24 .three, .advert24 .four, .footer24 .four, .advert33 .one, .footer33 .one, .advert33 .two, .footer33 .two, .advert33 .three, .footer33 .three, .advert49 .one, .footer49 .one, .advert49 .two, .footer49 .two, .advert99 .one, .footer99 .one { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#user-right-col .user33 .one, #user-left-col .user33 .one { width: 210px; float: left; }
+#user-right-col .user33 .two, #user-left-col .user33 .two { width: 210px; float: left; margin-left: 15px; }
+#user-right-col .user33 .three, #user-left-col .user33 .three { width: 210px; float: right; }
+#user-right-col .user49 .one, #user-left-col .user49 .one { width: 322px; float: left; }
+#user-right-col .user49 .two, #user-left-col .user49 .two { width: 322px; float: right; }
+#user-right-col .user99 .one, #user-left-col .user99 .one { width: 660px; float: left; }
+#user-left-right .user33 .one { width: 154px; float: left; }
+#user-left-right .user33 .two { width: 154px; float: left; margin-left: 14px; }
+#user-left-right .user33 .three { width: 154px; float: right; }
+#user-left-right .user49 .one { width: 237px; float: left; }
+#user-left-right .user49 .two { width: 237px; float: right; }
+#user-left-right .user99 .one { width: 490px; float: left; }
+#user-no-col .user33 .one { width: 300px; float: left; }
+#user-no-col .user33 .two { width: 300px; float: left; margin-left: 15px; }
+#user-no-col .user33 .three { width: 300px; float: right; }
+#user-no-col .user49 .one { width: 457px; float: left; }
+#user-no-col .user49 .two { width: 457px; float: right; }
+#user-no-col .user99 .one { width: 930px; float: left; }
+#user-right-col .user33 .one, #user-left-col .user33 .one, #user-right-col .user33 .two, #user-left-col .user33 .two, #user-right-col .user33 .three, #user-left-col .user33 .three, #user-right-col .user49 .one, #user-left-col .user49 .one, #user-right-col .user49 .two, #user-left-col .user49 .two, #user-right-col .user99 .one, #user-left-col .user99 .one, #user-left-right .user33 .one, #user-left-right .user33 .two, #user-left-right .user33 .three, #user-left-right .user49 .one, #user-left-right .user49 .two, #user-left-right .user99 .one, #user-no-col .user33 .one, #user-no-col .user33 .two, #user-no-col .user33 .three, #user-no-col .user49 .one, #user-no-col .user49 .two, #user-no-col .user99 .one { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+body { background: #f0f0f0; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header-bg { background: url(../images/header_white.gif) center; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#menu-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#banner-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; }
+#advert-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; }
+#content-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#footer-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-top: 1px solid #CCCCCC; }
+#copy-bg { border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-top: 1px solid #CCCCCC; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header { color: #000000; }
+#header .menu a { color: #000000; }

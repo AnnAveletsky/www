@@ -1,0 +1,35 @@
+.logo-container { position:absolute; width:284px; height:75px;}
+.logo img {width:100%; height:auto;}
+
+#leftbar-w {float:left;}
+#rightbar-w {float:right;}
+#sidebar .module {margin-bottom: 15px; max-width:190px;}
+.well {max-width:180px;}
+
+#centercontent_both {width: 54%; margin-left: 9px;}
+#centercontent_one {width:77%; margin-left: 9px;}
+
+#social {float: right;width: 110px; margin-top: 28px; margin-right:1px; z-index:10; display:inline-block;}
+
+#nav { float: left;letter-spacing: 0;margin: auto 0;position: relative;z-index: 10; width:100%;}
+#nav ul {margin-bottom: 19px; margin-left:0;padding:0; float:left; background:url(../images/mainmenu.png) bottom repeat-x; width:100%;margin-top: 18px;}
+#nav ul li {list-style:none;float:left;height:100%;position:relative; padding-right:0px 20px; margin:0; background:url(../images/separator.png) no-repeat;}
+#nav ul li:first-child {background:none;}
+#nav ul li a { font-family: 'Yanone Kaffeesatz', sans-serif; text-align:left; display:block; text-transform: uppercase; padding:0 20px; line-height:46px; color:#fff; text-shadow: 0 1px #555; text-decoration:none;font-size:15px;font-weight:normal;}
+#nav ul li a:hover, #nav ul li.active a {color:#fff; text-shadow: 0 1px #555; text-align:left;}
+#nav ul li a:hover {background:#1f8cd8; color:#555;text-shadow:none;}
+#nav ul li.active {line-height:82px;}
+#nav ul li ul {position:absolute;width:180px;left:-999em;border-top:0; margin:0; padding:0; }
+#nav ul li:hover ul, #menu ul li.sfHover ul {left:0;}
+#nav ul li ul li {padding: 0; height:auto; width:180px; margin:0 auto; border:0; text-align: left;}
+#nav ul li ul li:hover ul {left:180px; top:0}
+#nav ul li:hover ul li a {text-shadow:none;}
+#nav ul li:hover ul li { background:none;}
+#nav ul li:hover ul li a, #nav ul li ul li a, #nav ul li.active ul li a{margin:0; padding:0 0 0 10px;height:24px;line-height:24px; background:#555;border-bottom:1px solid #3a3a3a; border-right:0; color:#d1d1d1; font-size:14px;font-weight:normal;text-shadow:none; -moz-border-radius: 0px; border-radius: 0px;}
+#nav ul li ul li a:hover, #nav ul li ul li.active a, #nav ul li.active ul li a:hover, #nav ul li.active ul li.active a {text-align: left; padding:0px 0 0 10px;height:24px;line-height:24px;background:#1f8cd8;color:#fff; font-size:14px;text-shadow:none;}
+#nav ul li ul ul, #nav ul li:hover ul ul, #nav ul li:hover ul ul ul, #nav ul li:hover ul ul ul ul, #nav ul li.sfHover ul ul, #nav ul li.sfHover ul ul ul, #nav ul li.sfHover ul ul ul ul {left:-999em;}
+#nav ul li ul li ul li{padding:0;height:auto;width:180px; margin:0 auto; border:none; text-align: left;}
+
+
+#bottom {max-width:980px; margin: auto; }
+.user1, .user2, .user3 { background:none; color:#555; border:0; border-radius:5px; padding: 0px 5px 3px 10px; float: left; margin: 5px 10px 5px 10px;}
