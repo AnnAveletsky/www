@@ -41,6 +41,28 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/bootstrap.min.js');
 //$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
 
+//<!-- Javascript Files-->
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery-migrate-1.2.1.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/headhesive.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/fhmm.js"');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.flickrfeed.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/isotope.pkgd.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/jquery.imagesloaded.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/magnific-popup/jquery.magnific-popup.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.fitvids.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.appear.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.stellar.min.js"');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/snap.svg-min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/mediaelement/mediaelement-and-player.min.js');
+
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/custom.js');
+
+//<!-- jQuery REVOLUTION Slider  -->
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-plugin/js/jquery.themepunch.tools.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js');
+
+
 // Add Stylesheets
 
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
@@ -48,6 +70,25 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/bootstra
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
+
+//	<!-- Base + Vendors CSS -->
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fonts/font-awesome/css/font-awesome.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.theme.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/magnific-popup/magnific-popup.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/mediaelement/mediaelementplayer.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/rs-plugin/css/settings.css');
+
+//<!-- Theme CSS-->
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/theme.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/theme-elements.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/animate.min.css');
+
+//<!-- Skin CSS -->
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/red.css');
+
+//<!-- Custom CSS-->
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/custom.css');
 
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', false, $this->direction);
