@@ -38,8 +38,8 @@ else
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/bootstrap.min.js');
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
 
 //<!-- Javascript Files-->
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery-migrate-1.2.1.min.js');
@@ -65,11 +65,11 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-p
 
 // Add Stylesheets
 
-//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/AdminLTE.min.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
 
 //	<!-- Base + Vendors CSS -->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fonts/font-awesome/css/font-awesome.css');
@@ -126,7 +126,7 @@ else
 }
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<jdoc:include type="head" />
@@ -169,18 +169,11 @@ else
 	<![endif]-->
 </head>
 
-<body class="site <?php echo $option
-	. ' view-' . $view
-	. ($layout ? ' layout-' . $layout : ' no-layout')
-	. ($task ? ' task-' . $task : ' no-task')
-	. ($itemid ? ' itemid-' . $itemid : '')
-	. ($params->get('fluidContainer') ? ' fluid' : '');
-	echo ($this->direction == 'rtl' ? ' rtl' : '');
-?>">
+<body class="Boxed" >
 
 	<!-- Body -->
-	<div class="body">
-		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
+	<div class="body" >
+		<div class="conteiner <?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
 			<!-- Header -->
 			<header class="header" role="banner">
 				<div class="header-inner clearfix">
@@ -195,6 +188,7 @@ else
 					</div>
 				</div>
 			</header>
+
 			<?php if ($this->countModules('position-1')) : ?>
 				<nav class="navigation" role="navigation">
 					<div class="navbar pull-left">
@@ -208,7 +202,6 @@ else
 				</nav>
 			<?php endif; ?>
 			<jdoc:include type="modules" name="banner" style="xhtml" />
-			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>
 					<!-- Begin Sidebar -->
 					<div id="sidebar" class="span3">
@@ -218,23 +211,34 @@ else
 					</div>
 					<!-- End Sidebar -->
 				<?php endif; ?>
-				<main id="content" role="main" class="<?php echo $span; ?>">
-					<!-- Begin Content -->
-					<jdoc:include type="modules" name="position-3" style="xhtml" />
-					<jdoc:include type="message" />
-					<jdoc:include type="component" />
-					<jdoc:include type="modules" name="position-2" style="none" />
-					<!-- End Content -->
-				</main>
-				<?php if ($this->countModules('position-7')) : ?>
-					<div id="aside" class="span3">
-						<!-- Begin Right Sidebar -->
-						<jdoc:include type="modules" name="position-7" style="well" />
-						<!-- End Right Sidebar -->
-					</div>
-				<?php endif; ?>
+				<div class="box box-solid">
+					<div class="box-body">
+<!-- Begin Content -->
+						<aside class="pull-right">
+							<?php if ($this->countModules('position-7')) : ?>
+								<div id="aside" class="span3">
+									<!-- Begin Right Sidebar -->
+									<jdoc:include type="modules" name="position-7" style="well" />
+									<!-- End Right Sidebar -->
+								</div>
+							<?php endif; ?>
+						</aside>
+						<section>
+							<main id="content" role="main" class="<?php echo $span; ?>">
+								<jdoc:include type="modules" name="position-3" style="xhtml" />
+								<jdoc:include type="message" />
+								<jdoc:include type="component" />
+								<jdoc:include type="modules" name="position-2" style="none" />
+								
+							</main>
+						</section>
+			
+<!-- End Content -->
+			
 			</div>
-		</div>
+			</div>
+			</div>
+
 	</div>
 	<!-- Footer -->
 	<footer class="footer" role="contentinfo">
@@ -246,11 +250,9 @@ else
 					<?php echo JText::_('TPL_PROTOSTAR_BACKTOTOP'); ?>
 				</a>
 			</p>
-			<p>
-				&copy; <?php echo date('Y'); ?> <?php echo $sitename; ?>
-			</p>
 		</div>
 	</footer>
 	<jdoc:include type="modules" name="debug" style="none" />
+
 </body>
 </html>

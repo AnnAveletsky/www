@@ -5,3 +5,10 @@
 .header.headhesive.headhesive--stick .logo img {
 	/*height: 28px;*/
 }
+
+
+body{
+	max-width: 1200px;
+	margin: auto;
+	background: url("/images/background.jpg");
+}
