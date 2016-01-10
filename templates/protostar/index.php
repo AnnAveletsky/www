@@ -39,7 +39,7 @@ else
 JHtml::_('bootstrap.framework');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
 
 //<!-- Javascript Files-->
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery-migrate-1.2.1.min.js');
@@ -55,6 +55,10 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jque
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.stellar.min.js"');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/snap.svg-min.js');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/mediaelement/mediaelement-and-player.min.js');
+//GrueMuneJs
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/script.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/sidr.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/touchwipe.js');
 
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/custom.js');
 
@@ -70,6 +74,10 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/boo
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
+
+//GrueMenu
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/mod-style.css');
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/styles.css');
 
 //	<!-- Base + Vendors CSS -->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fonts/font-awesome/css/font-awesome.css');
@@ -225,9 +233,13 @@ else
 						</aside>
 						<section>
 							<main id="content" role="main" class="<?php echo $span; ?>">
+
 								<jdoc:include type="modules" name="position-3" style="xhtml" />
+
 								<jdoc:include type="message" />
+
 								<jdoc:include type="component" />
+
 								<jdoc:include type="modules" name="position-2" style="none" />
 								
 							</main>

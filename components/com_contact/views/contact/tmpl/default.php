@@ -20,7 +20,7 @@ jimport('joomla.html.html.bootstrap');
 		</h1>
 	<?php endif; ?>
 	<?php if ($this->contact->name && $this->params->get('show_name')) : ?>
-		<div class="page-header">
+		<div class="box-header">
 			<h2>
 				<?php if ($this->item->published == 0) : ?>
 					<span class="label label-warning"><?php echo JText::_('JUNPUBLISHED'); ?></span>
