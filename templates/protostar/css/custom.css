@@ -38,9 +38,7 @@ caption, th, td, center {
   text-align: left; 
   } 
 body {  
-  background: white;  
   line-height: 1;  
-  color: black;  
   } 
 q {  
   quotes: "" "";  
@@ -54,13 +52,12 @@ sub, sup {
 a {  
   color: inherit;  
   } 
+p{
+  margin: 0px;
+  padding: 0px;
+}
 hr {  
   display: none;  
-  } 
-font {  
-  color: inherit !important;  
-  font: inherit !important;  
-  color: inherit !important; /* editor's note: necessary? */  
   } 
 marquee { 
   overflow: inherit !important; 
@@ -76,6 +73,7 @@ nobr {
 
 body{
 	max-width: 1200px;
+  min-width: 400px;
 	margin: auto;
 	background: url("/images/background.jpg");
 }

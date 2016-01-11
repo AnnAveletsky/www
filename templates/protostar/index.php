@@ -68,7 +68,8 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-p
 
 
 // Add Stylesheets
-
+// Load optional RTL Bootstrap CSS
+JHtml::_('bootstrap.loadCss', false, $this->direction);
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/AdminLTE.min.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
@@ -78,7 +79,8 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/boo
 //GrueMenu
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/mod-style.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/styles.css');
-
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/header.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/well.css');
 //	<!-- Base + Vendors CSS -->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fonts/font-awesome/css/font-awesome.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.css');
@@ -98,8 +100,8 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/ski
 //<!-- Custom CSS-->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/custom.css');
 
-// Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', false, $this->direction);
+
+
 
 // Adjusting content width
 if ($this->countModules('position-7') && $this->countModules('position-8'))
@@ -183,32 +185,28 @@ else
 	<div class="body" >
 		<div class="conteiner <?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
 			<!-- Header -->
-			<header class="header" role="banner">
-				<div class="header-inner clearfix">
-					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>/">
-						<?php echo $logo; ?>
-						<?php if ($this->params->get('sitedescription')) : ?>
-							<?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription')) . '</div>'; ?>
-						<?php endif; ?>
-					</a>
-					<div class="header-search pull-right">
+			<header>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="title">
+							<a  href="<?php echo $this->baseurl; ?>/">
+								<?php echo $logo; ?>
+								<?php if ($this->params->get('sitedescription')) : ?>
+								<?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription')) . '</div>'; ?>
+								<?php endif; ?>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6">
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
 				</div>
 			</header>
-
 			<?php if ($this->countModules('position-1')) : ?>
-				<nav class="navigation" role="navigation">
-					<div class="navbar pull-left">
-						<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-							Меню
-						</a>
-					</div>
-					<div class="nav-collapse">
-						<jdoc:include type="modules" name="position-1" style="none" />
-					</div>
-				</nav>
-			<?php endif; ?>
+							<nav class="" role="navigation">
+								<jdoc:include type="modules" name="position-1" style="none" />
+							</nav>
+						<?php endif; ?>
 			<jdoc:include type="modules" name="banner" style="xhtml" />
 				<?php if ($this->countModules('position-8')) : ?>
 					<!-- Begin Sidebar -->
@@ -222,12 +220,14 @@ else
 				<div class="box box-solid">
 					<div class="box-body">
 <!-- Begin Content -->
-						<aside class="pull-right">
+						<aside class="pull-right ">
 							<?php if ($this->countModules('position-7')) : ?>
+								<div class="thumbnails">
 								<div id="aside" class="span3">
 									<!-- Begin Right Sidebar -->
 									<jdoc:include type="modules" name="position-7" style="well" />
 									<!-- End Right Sidebar -->
+								</div>
 								</div>
 							<?php endif; ?>
 						</aside>
@@ -239,9 +239,9 @@ else
 								<jdoc:include type="message" />
 
 								<jdoc:include type="component" />
-
+								<nav class="nav-preview">
 								<jdoc:include type="modules" name="position-2" style="none" />
-								
+								</nav>
 							</main>
 						</section>
 			

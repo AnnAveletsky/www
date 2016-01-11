@@ -1,0 +1,40 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+header{
+	background-color: #2f2f2f;
+	color: white;
+	margin-top: 20px;
+	padding: 10px;
+	min-width: 450px;
+}
+header .title{
+	
+	padding: 20px;
+}
+header .site-title{
+	font-size: 300%;
+	font-family: 'Lobster', cursive;
+	width: auto;
+}
+#header-contacts{
+	padding: 20px;
+}
+#header-contacts p{
+	text-align: right;
+}
+#header-contacts #phone{
+	font-size: 200%;
+}
+#header-contacts #adress{
+	font-size: 120%;
+	
+}
+@media screen and (max-width: 720px){
+header{
+	margin-top: 0px;
+}
+}
+.page-header{
+	margin: 0px auto;
+	text-align: center;
+}
