@@ -79,8 +79,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/boo
 //GrueMenu
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/mod-style.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/styles.css');
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/header.css');
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/well.css');
+
 //	<!-- Base + Vendors CSS -->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/fonts/font-awesome/css/font-awesome.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.css');
@@ -99,7 +98,9 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/ski
 
 //<!-- Custom CSS-->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/custom.css');
-
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/header.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/well.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/slider.css');
 
 
 
