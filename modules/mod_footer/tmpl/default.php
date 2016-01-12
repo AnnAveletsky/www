@@ -24,7 +24,7 @@ defined('_JEXEC') or die;
 							
 										<p>Nullam volutpat quis sem id iaculis. Fusce interdum, quam ac aliquam vulputate, orci nisl imperdiet turpis, non posuere massa ipsum et lorem. Pellentesque facilisis, orci nec gravida accumsan, massa elit hendrerit lacus, tortor.</p>
 							
-										<a href="#" class="btn btn-primary">Learn More</a>
+										<a href="#" class="btn btn-primary btn-sm">Learn More</a>
 									</div>
 								</div>
 								<!-- /Widget :: Text Widget -->

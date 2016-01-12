@@ -69,10 +69,9 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-p
 
 // Add Stylesheets
 // Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', false, $this->direction);
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
-//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/AdminLTE.min.css');
-//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap-responsive.min.css');
+
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
 
@@ -94,14 +93,15 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/the
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/animate.min.css');
 
 //<!-- Skin CSS -->
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/red.css');
-
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/red.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/AdminLTE.min.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/skins/_all-skins.min.css');
 //<!-- Custom CSS-->
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/custom.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/header.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/well.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/slider.css');
-
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/nav-preview.css');
 
 
 // Adjusting content width
@@ -218,40 +218,34 @@ else
 					</div>
 					<!-- End Sidebar -->
 				<?php endif; ?>
-				<div class="box box-solid">
-					<div class="box-body">
-<!-- Begin Content -->
-						<aside class="pull-right ">
-							<?php if ($this->countModules('position-7')) : ?>
-								<div class="thumbnails">
-								<div id="aside" class="span3">
-									<!-- Begin Right Sidebar -->
-									<jdoc:include type="modules" name="position-7" style="well" />
-									<!-- End Right Sidebar -->
-								</div>
-								</div>
-							<?php endif; ?>
-						</aside>
-						<section>
-							<main id="content" role="main" class="<?php echo $span; ?>">
-
+			<div class="box box-solid">
+				<div class="box-body">
+  					<div class="row-fluid">
+  					
+    					<main id="content" role="main" class="<?php echo $span; ?>">
+    						<section>
 								<jdoc:include type="modules" name="position-3" style="xhtml" />
 
 								<jdoc:include type="message" />
 
 								<jdoc:include type="component" />
 								<nav class="nav-preview">
-								<jdoc:include type="modules" name="position-2" style="none" />
+									<jdoc:include type="modules" name="position-2" style="none" />
 								</nav>
-							</main>
-						</section>
-			
+							</section>
+						</main>
+    					<aside id="aside" class="span3">
+							<?php if ($this->countModules('position-7')) : ?>
+									<!-- Begin Right Sidebar -->
+								<jdoc:include type="modules" name="position-7"/>
+									<!-- End Right Sidebar -->
+							<?php endif; ?>
+						</aside>
 <!-- End Content -->
-			
+					</div>
+				</div>
 			</div>
-			</div>
-			</div>
-
+		</div>
 	</div>
 	<!-- Footer -->
 	<footer class="footer" role="contentinfo">
