@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 // Note. It is important to remove spaces between elements.
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
-<ul class="nav menu<?php echo $class_sfx;?>"<?php
+<ul class="row nav menu<?php echo $class_sfx;?>"<?php
 	$tag = '';
 
 	if ($params->get('tag_id') != null)
@@ -66,10 +66,10 @@ foreach ($list as $i => &$item)
 
 	if (!empty($class))
 	{
-		$class = ' class="' . trim($class) . '"';
+		$class = ' class="' . trim($class) . ' col-md-4"';
 	}
 
-	echo '<li' . $class . '>';
+	echo '<li' . $class . ' >';
 
 	// Render the menu item.
 	switch ($item->type) :

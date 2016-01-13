@@ -1,3 +1,9 @@
-.nav-preview{
-	
+.nav-preview img{
+	margin: 0 auto;
+}
+.nav-preview .nav > li > a > img{
+	    max-width: 100%
+}
+.nav-preview .image-title{
+	font-size: 20px;
 }
