@@ -188,7 +188,7 @@ else
 			<!-- Header -->
 			<header>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6">
 						<div class="title">
 							<a  href="<?php echo $this->baseurl; ?>/">
 								<?php echo $logo; ?>
@@ -198,7 +198,7 @@ else
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6">
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
 				</div>

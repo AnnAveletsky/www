@@ -16,7 +16,7 @@ $title = $item->anchor_title ? 'title="' . $item->anchor_title . '" ' : '';
 if ($item->menu_image)
 {
 	$item->params->get('menu_text', 1) ?
-	$linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" /><span class="image-title">' . $item->title . '</span> ' :
+	$linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" /><div class="caption"><center><h3 class="image-title">' . $item->title . '</h3></center></div> ' :
 	$linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" />';
 }
 else

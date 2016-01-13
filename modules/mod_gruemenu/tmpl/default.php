@@ -170,7 +170,7 @@ $doc->addCustomTag('<!--[if lt IE 9]><script src="http://html5shim.googlecode.co
 /* Enable Mobile Menu */
 <?php if ($params->get('Mobile')) { ?>
 @media screen and (max-width: <?php echo $screenMax ?>px) {
-#navigation-toggle { z-index:999; display:block; position:fixed; top:10px; right:10px; padding:10px 10px; box-shadow:0px 1px 1px rgba(0,0,0,0.15);	border-radius:3px;	text-shadow:0px 1px 0px rgba(0,0,0,0.5); font-size:20px;		transition:color linear 0.15s; text-decoration: none !important; }
+#navigation-toggle { z-index:999; display:block;  top:10px; right:10px; padding:10px 10px; box-shadow:0px 1px 1px rgba(0,0,0,0.15);	border-radius:3px;	text-shadow:0px 1px 0px rgba(0,0,0,0.5); font-size:20px;		transition:color linear 0.15s; text-decoration: none !important; }
 #navigation-toggle span.nav-line { display:block; height:3px; width:20px; margin-bottom:4px; background:#fff}
 #navigation-toggle:hover {text-decoration:none;	}
 #gruemenu.grue_<?php echo $module->id ?>  {display: none;}
@@ -179,7 +179,7 @@ $doc->addCustomTag('<!--[if lt IE 9]><script src="http://html5shim.googlecode.co
 </style>
 
 <?php if ($params->get('Mobile')) { ?>
-<a href="#sidr-main" id="navigation-toggle" class="navigation-toggle-<?php echo $module->id ?>"><span class="nav-line"></span><span class="nav-line"></span><span class="nav-line"></span></a>
+<a href="#sidr-main" id="navigation-toggle" class="navigation-toggle-<?php echo $module->id ?>"> <div class="pull-left" style="margin-right:10px;"><span class="nav-line"></span><span class="nav-line"></span><span class="nav-line"></span></div><p>Меню</p></a>
 <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
 <?php } ?>
 <div id="gruemenu" class="grue_<?php echo $module->id ?> <?php echo $class_sfx;?>">

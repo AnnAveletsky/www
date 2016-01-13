@@ -66,7 +66,7 @@ foreach ($list as $i => &$item)
 
 	if (!empty($class))
 	{
-		$class = ' class="' . trim($class) . ' col-md-4"';
+		$class = ' class="' . trim($class) . ' col-md-4 col-sm-6"';
 	}
 
 	echo '<li' . $class . ' >';

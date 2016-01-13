@@ -7,3 +7,9 @@
 .nav-preview .image-title{
 	font-size: 20px;
 }
+.nav-preview .nav>li>a:hover{
+	background-color: #fff;
+}
+.nav-preview h3{
+	margin: 0px;
+}

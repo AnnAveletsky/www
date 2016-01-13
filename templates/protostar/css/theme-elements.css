@@ -33,7 +33,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #c4250a;
   text-decoration: underline;
 }
 /*
@@ -285,29 +284,6 @@ p {
 // #Thumbnails
 // --------------------------------------------------
 */
-.thumbnail {
-  padding: 6px;
-  background-color: #e5e5e5;
-  border: 1px solid #cecece;
-  border-radius: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.thumbnail img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-a.thumbnail:hover,
-a.thumbnail:focus,
-a.thumbnail.active {
-  border-color: #c1c1c1;
-}
-.thumbnail .caption {
-  color: #2f2f2f;
-}
 .alignleft,
 .alignright,
 .alignnone,
