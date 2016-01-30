@@ -38,7 +38,7 @@ else
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
 //$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
 
 //<!-- Javascript Files-->

@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 ?>
 
 <!-- Footer -->
-			<footer class="footer boxed" id="footer">
+			<div class="boxed" id="footer">
 				<div class="footer-widgets">
 					
 						<div class="row">
@@ -63,7 +63,10 @@ defined('_JEXEC') or die;
 					</div>
 				</div>
 
-				<div class="footer-copyright">
+				
+
+			</div>
+			<div class="footer-copyright">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-md-4">
@@ -84,6 +87,4 @@ defined('_JEXEC') or die;
 						</div>
 					</div>
 				</div>
-
-			</footer>
 			<!-- Footer / End -->
