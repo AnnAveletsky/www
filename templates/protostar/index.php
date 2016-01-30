@@ -36,43 +36,44 @@ else
 }
 
 // Add JavaScript Frameworks
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/jquery.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/jquery-ui.min.js');
 JHtml::_('bootstrap.framework');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/app.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/bootstrap.min.js');
+
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/tooltip.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/popover.js');
 
 //<!-- Javascript Files-->
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery-migrate-1.2.1.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/headhesive.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/fhmm.js"');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.flickrfeed.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/isotope.pkgd.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/jquery.imagesloaded.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/magnific-popup/jquery.magnific-popup.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.fitvids.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.appear.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.stellar.min.js"');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/snap.svg-min.js');
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/mediaelement/mediaelement-and-player.min.js');
-//GrueMuneJs
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/script.js');
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/sidr.js');
-//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/touchwipe.js');
 
-$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/custom.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery-migrate-1.2.1.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/headhesive.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/fhmm.js"');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.flickrfeed.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/isotope.pkgd.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/isotope/jquery.imagesloaded.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/magnific-popup/jquery.magnific-popup.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/owl-carousel/owl.carousel.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.fitvids.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.appear.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/jquery.stellar.min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/snap.svg-min.js');
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/mediaelement/mediaelement-and-player.min.js');
+
+
+//$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/custom.js');
 
 //<!-- jQuery REVOLUTION Slider  -->
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-plugin/js/jquery.themepunch.tools.min.js');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js');
 
-
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
 // Add Stylesheets
 // Load optional RTL Bootstrap CSS
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap.min.css');
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/bootstrap-responsive.min.css');
 
-//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/Site.css');
 
 //GrueMenu

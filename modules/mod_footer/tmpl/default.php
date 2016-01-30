@@ -15,7 +15,7 @@ defined('_JEXEC') or die;
 				<div class="footer-widgets">
 					
 						<div class="row">
-							<div class="col-sm-8 col-md-9">
+							<div class="col-sm-8 col-md-8">
 								<!-- Widget :: Text Widget -->
 								<div class="widget_text widget widget__footer">
 									<h3 class="widget-title">About Us</h3>
@@ -25,11 +25,14 @@ defined('_JEXEC') or die;
 										<p>Nullam volutpat quis sem id iaculis. Fusce interdum, quam ac aliquam vulputate, orci nisl imperdiet turpis, non posuere massa ipsum et lorem. Pellentesque facilisis, orci nec gravida accumsan, massa elit hendrerit lacus, tortor.</p>
 							
 										<a href="#" class="btn btn-primary btn-sm">Learn More</a>
+										
+
 									</div>
 								</div>
 								<!-- /Widget :: Text Widget -->
 							</div>
-							<div class="col-sm-4 col-md-3">
+
+							<div class="col-sm-4 col-md-4">
 								<!-- Widget :: Contacts Info -->
 								<div class="contacts-widget widget widget__footer">
 									<h3 class="widget-title">Contact Us</h3>
@@ -59,6 +62,7 @@ defined('_JEXEC') or die;
 								</div>
 								<!-- /Widget :: Contacts Info -->
 							</div>
+
 						</div>
 					</div>
 				</div>
@@ -69,10 +73,33 @@ defined('_JEXEC') or die;
 			<div class="footer-copyright">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<?php echo $lineone; ?>
 							</div>
-							<div class="col-sm-6 col-md-8">
+							<div class="col-sm-4 col-md-4">
+								<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=35017700&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/35017700/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:35017700,lang:'ru'});return false}catch(e){}" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+    var yaCounter35017700 = new Ya.Metrika({
+        id:35017700,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+} catch(e) { }
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/35017700" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</div>
+
+							<div class="col-sm-4 col-md-4">
 								<div class="social-links-wrapper">
 									<span class="social-links-txt">Connect with us</span>
 									<ul class="social-links social-links__dark">
@@ -84,6 +111,7 @@ defined('_JEXEC') or die;
 									</ul>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
