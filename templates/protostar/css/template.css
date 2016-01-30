@@ -4937,12 +4937,7 @@ a.badge:focus {
 }
 @media (min-width: 1200px) {
 
-	.container,
-	.navbar-static-top .container,
-	.navbar-fixed-top .container,
-	.navbar-fixed-bottom .container {
-		width: 1200px;
-	}
+	
 	.span12 {
 		width: 1200px;
 	}
